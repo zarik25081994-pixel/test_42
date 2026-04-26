@@ -5,4 +5,4 @@ def start(message):
     bot.send_message(message.chat.id, 'Hi my dear husband')
 
 
-bot.polling(ndone_stop=True)
+bot.polling(none_stop=True)
