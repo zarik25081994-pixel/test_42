@@ -10,5 +10,11 @@ class date:
     def get_ini(self):
         return self.year
 
+    def hiot_frs(self):
+        return self.day
+    
+    def hop_steo(self):
+        return self.month
+        
 d = date(26, 4, 2026)
 print(d.info())
